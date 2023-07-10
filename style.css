@@ -79,3 +79,17 @@ p{
     font-size: medium;
     margin-top: 20px;
 }
+/* Optional Section */
+.logo-main{
+    display: flex;
+    background-color: #2727270D;
+    margin: 100px 200px ;
+    padding: 100px 0;
+    justify-content:center;
+    gap: 100px;
+}
+.opt-logo img{
+    height: 60px;
+    width: 60px;
+    margin-left: 40% ;
+}
