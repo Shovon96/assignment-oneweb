@@ -1,7 +1,81 @@
-h1{
-    color: brown;
+*{
+    margin: 0;
+    padding: 0;
 }
 p{
-    background-color: chocolate;
+    color: #807e7e;
+}
+/* Main header */
+.head-main{
+    display: flex;
+    background-color: #E554731A;
+    height: auto;
+    width: 100%;
+}
+.title-main{
+    padding: 100px 200px;
+    padding-top: 15%;
+}
+.title{
+    color: #272727;
+    font-size: 44px;
+    font-family: Georgia, serif;
+    font-weight: 800;
+}
+.description{
+    color: #807e7e;
+    margin: 20px 0;
+}
+.shop-now{
     color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #E55473;
+    border-radius: 5px;
+    border: none;
+}
+.shop-now:hover{
+    background-color: #b34960;
+}
+.head-img{
+    height: 550px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+/* Our Featured Section Start */
+.our-featur-main{
+    text-align: center;
+    margin-top: 100px;
+}
+.our-featur-main h1{
+    font-family: Georgia, serif;
+    margin: 20px 0;
+    font-size: 32px;
+    font-weight: 900;
+}
+.pink-flower-img{
+    display: flex;
+    margin: 30px 180px 0 200px;
+    gap: 20px;
+}
+.pink-flower{
+    background: rgba(167, 33, 98, 0.15); 
+    border-top-left-radius: 300px; 
+    border-top-right-radius: 300px;
+    height: 330px;
+    width: 240px;
+    padding: 50px 40px 0 40px;
+}
+.flower-bg{
+    background-color: #0597A026;
+}
+.flower-bg2{
+    background-color: #477D1126;
+}
+.flower-name{
+    text-align: center;
+    text-decoration: underline;
+    font-size: medium;
+    margin-top: 20px;
 }
