@@ -80,16 +80,75 @@ p{
     margin-top: 20px;
 }
 /* Optional Section */
-.logo-main{
+.services-logo-main{
     display: flex;
     background-color: #2727270D;
-    margin: 100px 200px ;
+    margin: 100px 150px 0 200px;
     padding: 100px 0;
     justify-content:center;
     gap: 100px;
 }
-.opt-logo img{
+.serve-logo img{
     height: 60px;
     width: 60px;
     margin-left: 40% ;
+}
+/* Hot Deal Discount Section */
+.hot-deal-container{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding: 100px 230px;
+    text-align: center;
+}
+.discount-title h1{
+    color: #272727;
+    font-size: 28px;
+    font-weight: 900;
+    font-family: Georgia, serif;
+}
+.discount-title h1>span{
+    color: #E55473;
+}
+.discount-title p{
+    margin: 30px;
+}
+.sign-up{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #E55473;
+    border-radius: 5px;
+    border: none;
+}
+.discount-img{
+    height: 320px;
+    width: 250px;
+}
+/* Instagram Section */
+.insta-container{
+    margin-top: 100px;
+    text-align: center;
+}
+.insta-container h1{
+    font-family: Georgia, serif;
+    color: #272727;
+    font-size: 28px;
+}
+.insta-container p{
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.insta-img{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    /* padding: 0 200px 0 150px; */
+}
+.insta-img img{
+    height: 300px;
+    width: 250px;
 }
