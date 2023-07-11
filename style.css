@@ -128,6 +128,56 @@ p{
     height: 320px;
     width: 250px;
 }
+/* Add Cart Section  */
+.our-prod-title{
+    color: #272727;
+    font-size: 44px;
+    font-family: Georgia, serif;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 100px;
+}
+.our-prod-discription{
+    text-align: center;
+    color: #9a9595;
+    margin-top: 20px;
+}
+.cart-container{
+    display: flex;
+    margin: 100px;
+    justify-content: space-around;
+}
+.price-cart{
+    height: auto;
+    width: 250px;
+    text-align: center;
+    box-shadow:#9a9595 2px 2px 3px 3px;
+}
+.price-cart h1{
+    font-weight: 800;
+    color: #b34960;
+    padding: 10px;
+}
+.price{
+    font-weight: 900;
+    font-size: 18;
+    color: red;
+    display: inline-block;
+}
+.price-cart p{
+    padding: 10px;
+    color: #4b4949;
+}
+.add-cart{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: brown;
+    border-radius: 10px;
+    border: none;
+    display: inline-block;
+    margin: 10px 0;
+}
 /* Instagram Section */
 .insta-container{
     margin-top: 100px;
@@ -221,56 +271,4 @@ footer h4{
     padding-top: 25px;
     font-size: 12px;
     font-weight: 300;
-}
-
-
-/* Add Cart Section  */
-.our-prod-title{
-    color: #272727;
-    font-size: 44px;
-    font-family: Georgia, serif;
-    font-weight: 800;
-    text-align: center;
-    margin-top: 100px;
-}
-.our-prod-discription{
-    text-align: center;
-    color: #9a9595;
-    margin-top: 20px;
-}
-.cart-container{
-    display: flex;
-    margin: 100px;
-    justify-content: space-around;
-}
-.price-cart{
-    height: auto;
-    width: 250px;
-    text-align: center;
-    box-shadow:#9a9595 2px 2px 3px 3px;
-}
-.price-cart h1{
-    font-weight: 800;
-    color: #b34960;
-    padding: 10px;
-}
-.price{
-    font-weight: 900;
-    font-size: 18;
-    color: red;
-    display: inline-block;
-}
-.price-cart p{
-    padding: 10px;
-    color: #4b4949;
-}
-.add-cart{
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    background-color: brown;
-    border-radius: 10px;
-    border: none;
-    display: inline-block;
-    margin: 10px 0;
 }
