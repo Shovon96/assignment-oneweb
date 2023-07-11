@@ -174,22 +174,51 @@ p{
     line-height: 30px;
     text-align: center;
 }
+#email {
+    color: rgba(39, 39, 39, 0.60);
+    padding: 15px 300px 15px 15px;
+    border-radius: 8px;
+    background: #d6e0e3;
+    font-size: 16px;
+    font-weight: 400;
+    border: 0px;
+    margin-left: 25%;
+    box-shadow: 4px 3px 5px 5px gray;
+}
 .subscribe{
     color: white;
     text-decoration: none;
     padding: 15px 20px;
     background-color: #E55473;
-    border-radius: 5px;
+    border-radius: 8px;
     border: none;
     margin-left: 10px;
+    box-shadow: 4px 3px 5px 5px gray;
 }
-#email {
-    color: rgba(39, 39, 39, 0.60);
-    padding: 15px 300px 15px 15px;
-    border-radius: 8px;
-    background: #FFF;
+
+/* footer related styles */
+footer{
+    height: 350px;
+    background: #111010;
+    text-align: center;
+}
+
+footer h3{
+    color: #E55473;
+    font-size: 38px;
+    font-weight: 900;
+    padding-top: 100px;
+    font-family: Georgia, serif;
+}
+footer p{
+    color:#9a9595;
     font-size: 16px;
     font-weight: 400;
-    border: 0px;
-    margin-left: 25%;
+    padding-top: 15px;
+}
+footer h4{
+    color:#4b4949;
+    font-size: 12px;
+    font-weight: 300;
+    padding-top: 25px;
 }
